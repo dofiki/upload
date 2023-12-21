@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+img{
+    height: 20rem;
+    width: 20rem;
+}
+
+input{
+    display: none;
+}
+
+label{
+    background-color: rgb(192, 207, 255);
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height:1rem;
+    width: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: Helvetica, sans-serif;
+}
+
+label:hover{
+    background-color:rgb(177, 190, 231);
+    transition: ease-in 0.1s;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 10fr 80fr 10fr;
+}
+
+.mid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    padding-top: 1rem;
+}
